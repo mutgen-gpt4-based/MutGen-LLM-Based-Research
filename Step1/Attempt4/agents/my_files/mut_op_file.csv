@@ -1,0 +1,18 @@
+Assignment;"An operation that assigns a value to a variable (e.g., `x = 10;`)"
+BinaryOperator;An operator that takes two operands (e.g., `a + b`, `x > y`)
+Block;A sequence of (or just one) statements enclosed in curly braces (`{...}`)
+ConstructorCall;The creation of a new object instance (e.g., `new MyClass()`)
+FieldRead;Reading the value from an object's field or attribute (e.g., `this.name`, `person.age`)
+FieldWrite;"Writing a value to an object's field or attribute (e.g., `this.name = ""new name"";`)"
+If;A conditional `if` statement
+Invocation;A method call, an invocation of a method (e.g., `myMethod()`, `myObject.doSomething()`, `System.out.println()`)
+Literal;"A fixed value directly in the source code, such as and int, a string, etc (e.g., `""hello""`, `123`, `true`, `null`)"
+LocalVariable;"The declaration of a new variable inside a method (e.g., `int count = 0;`)"
+Parameter;The declaration of a parameter in a method's signature (e.g., `void setName(String Parameter)`)
+Return;"A statement that returns control or a value from a method (e.g., `return;`, `return x;`)"
+ThisAccess;The `this` keyword, used to refer to the current object instance
+TypeAccess;Accessing a static member (field or method) of a class (e.g., `System.out`, `Math.max()`)
+TypeReference;"A reference to a data type's name (e.g., in a declaration `String s;` or a cast `(Integer) obj`)"
+UnaryOperator;An operator that takes a single operand (e.g., `i++`, `!`)
+VariableRead;Reading the value from a local variable or parameter.
+Wra;A modifier in a method's declaration that controls its visibility or behavior (e.g., `public`, `static`)
