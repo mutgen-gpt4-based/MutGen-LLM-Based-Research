@@ -117,7 +117,7 @@ The **final results** are located in `Step2/results/`, with the following inform
 3. Install all dependencies listed in `requirements.txt`:  
 ```bash
 pip install -r requirements.txt
-
+```
 > ⚠️ **Note:**  
 > The vectorized database for the **secondary dataset** is too large to be hosted in this repository.  
 > If you wish to execute **Step 2**, you must generate the vector store manually.
