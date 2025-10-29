@@ -21,17 +21,12 @@ Each cluster folder includes:
 - A **.csv file** containing the final dataset, filtered to include the most frequent mutant operators  
 
 Each **fixed–buggy pair** is tabulated with the mutant operators provided by GumTree.
-
----
-
-### **2. Mutant Operator Filtering**
-
 The filtering of mutant operators was necessary due to the **imbalance** in the number of Java nodes being modified.  
-This imbalance is evident when comparing the **boxplot graphs** stored inside the `boxplot_freq/` directory of each cluster.
-
+This imbalance is evident when comparing the **boxplot graphs** stored inside the `dataset/Cx/boxplot_freq/` directory of each cluster.
 ---
 
-### **3. Step 1 — Identification of Mutant Operators**
+
+### **2. Step 1 — Identification of Mutant Operators**
 
 Directory: `Step1/`
 
@@ -71,7 +66,7 @@ The final results for each Attempt are stored in their respective `results/` fol
 
 ---
 
-### **4. Step 2 — Mutant Generation**
+### **3. Step 2 — Mutant Generation**
 
 Directory: `Step2/`
 
@@ -79,7 +74,7 @@ This section includes all code related to the **mutant generation task**.
 
 Inside `dataset_train/train_ast_cluster/`, you will find the **secondary dataset** — the same dataset used to train the **RNN models from Tufano et al.**
 
-This secondary dataset was also filtered to maintain only **True Positives (TPs)** where the GumTree modifications occur on nodes that are part of the main dataset coverage.
+This secondary dataset was also filtered to maintain only **Tranformation Pairs** where the GumTree modifications occur on nodes that are part of the main dataset coverage.
 
 The folder `Step2/dataset_csv/` contains the **filtered main dataset**, while the remaining folders define the **LangGraph configuration** for guiding the LLM in the mutant generation task.
 
